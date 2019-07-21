@@ -1,0 +1,58 @@
+{
+    "name": "plantilla-backend-nodejs",
+    "version": "1.0.0",
+    "description": "Plantilla para realizar backend con node y hapijs",
+    "main": "index.js",
+    "scripts": {
+        "start:local": "nodemon -r dotenv/config ./bin/server.js",
+        "eslint": "./node_modules/.bin/eslint ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rootbean/plantilla-backend-nodejs.git"
+    },
+    "keywords": [
+        "backend",
+        "node",
+        "hapi"
+    ],
+    "author": "Ruber Rodríguez Valderrama <ruber19@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rootbean/plantilla-backend-nodejs/issues"
+    },
+    "homepage": "https://github.com/rootbean/plantilla-backend-nodejs#readme",
+    "dependencies": {
+        "@hapi/boom": "^7.4.2",
+        "@hapi/glue": "^6.1.0",
+        "@hapi/hapi": "^18.3.1",
+        "@hapi/hoek": "^8.0.2",
+        "@hapi/inert": "^5.2.1",
+        "@hapi/joi": "^15.1.0",
+        "@hapi/vision": "^5.5.2",
+        "base64url": "^3.0.1",
+        "blipp": "^4.0.0",
+        "crypto-js": "^3.1.9-1",
+        "dotenv": "^8.0.0",
+        "hapi-alive": "^2.0.3",
+        "hapi-auth-jwt2": "^8.6.1",
+        "hapi-swagger": "^10.0.2",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.24.0",
+        "mongoose": "^5.6.5",
+        "pg": "^7.11.0",
+        "pg-hstore": "^2.3.3",
+        "sequelize": "^5.10.1",
+        "uuid": "^3.3.2"
+    },
+    "devDependencies": {
+        "commitizen": "^4.0.3",
+        "eslint": "^6.0.1",
+        "eslint-config-airbnb": "^17.1.1",
+        "eslint-config-airbnb-base": "^13.2.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.14.2",
+        "nodemon": "^1.19.1"
+    }
+}
